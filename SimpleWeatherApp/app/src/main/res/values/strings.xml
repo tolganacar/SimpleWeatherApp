@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SimpleWeatherApp</string>
+    <string name="weather">Weather</string>
+    <string name="cities">Cities</string>
+    <string name="weather_city_list">Cities</string>
+    <string name="weather_details">Weather Details</string>
 </resources>
