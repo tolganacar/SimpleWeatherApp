@@ -7,16 +7,20 @@
 
     <fragment
         android:id="@+id/weatherDetailsFragment"
-        android:name="com.tolganacar.simpleweatherapp.WeatherDetailsFragment"
+        android:name="com.tolganacar.simpleweatherapp.view.weatherdetails.WeatherDetailsFragment"
         android:label="@string/weather_details"
         tools:layout="@layout/fragment_weather_details" >
         <action
             android:id="@+id/action_weatherDetailsFragment_to_weatherCityListFragment"
             app:destination="@id/weatherCityListFragment" />
+        <argument
+            android:name="cityID"
+            app:argType="integer"
+            android:defaultValue="745044" />
     </fragment>
     <fragment
         android:id="@+id/weatherCityListFragment"
-        android:name="com.tolganacar.simpleweatherapp.WeatherCityListFragment"
+        android:name="com.tolganacar.simpleweatherapp.view.weathercitylist.WeatherCityListFragment"
         android:label="@string/cities"
         tools:layout="@layout/fragment_weather_city_list" >
         <action
