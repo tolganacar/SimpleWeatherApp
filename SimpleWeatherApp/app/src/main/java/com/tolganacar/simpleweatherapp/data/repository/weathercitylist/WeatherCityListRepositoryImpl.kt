@@ -1,4 +1,4 @@
-package com.tolganacar.simpleweatherapp.data.repository
+package com.tolganacar.simpleweatherapp.data.repository.weathercitylist
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

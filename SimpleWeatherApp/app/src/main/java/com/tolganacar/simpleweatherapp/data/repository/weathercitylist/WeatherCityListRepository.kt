@@ -1,4 +1,4 @@
-package com.tolganacar.simpleweatherapp.data.repository
+package com.tolganacar.simpleweatherapp.data.repository.weathercitylist
 
 import com.tolganacar.simpleweatherapp.data.model.weathercitylist.WeatherCityListResponseModel
 import kotlinx.coroutines.flow.Flow
