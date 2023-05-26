@@ -2,7 +2,7 @@ package com.tolganacar.simpleweatherapp.domain.weathercitylist
 
 import com.tolganacar.simpleweatherapp.base.BaseUseCase
 import com.tolganacar.simpleweatherapp.data.model.weathercitylist.WeatherCityListResponseModel
-import com.tolganacar.simpleweatherapp.data.repository.WeatherCityListRepository
+import com.tolganacar.simpleweatherapp.data.repository.weathercitylist.WeatherCityListRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
