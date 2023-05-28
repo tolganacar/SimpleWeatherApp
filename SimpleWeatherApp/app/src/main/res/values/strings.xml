@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleWeatherApp</string>
+    <string name="weather">Weather</string>
+    <string name="cities">Cities</string>
+    <string name="weather_city_list">Cities</string>
+    <string name="weather_details">Weather Details</string>
+    <string name="error_try_again">Error! Try Again</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="sea_level">Sea Level</string>
+    <string name="coordinates">Coordinates</string>
+</resources>
